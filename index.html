@@ -1,135 +1,435 @@
-# Privacy Policy
+<!DOCTYPE html>
 
-**Effective date:** June 17, 2026
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-This Privacy Policy explains how **Inner Reminder** (“the App”) handles information when you use it.
+  <title>Privacy Policy | Inner Reminder</title>
+  <meta
+    name="description"
+    content="Privacy Policy for the Inner Reminder Android application."
+  >
 
-Inner Reminder is designed as a privacy-first reminders app. The App helps you create collections of prompts and receive gentle reminders on your device.
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #ffffff;
+      --surface: #f7f7f8;
+      --text: #202124;
+      --secondary-text: #5f6368;
+      --border: #dadce0;
+      --link: #1a73e8;
+    }
 
-## Developer contact
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #121212;
+        --surface: #1e1e1e;
+        --text: #f1f3f4;
+        --secondary-text: #bdc1c6;
+        --border: #3c4043;
+        --link: #8ab4f8;
+      }
+    }
 
-If you have questions about this Privacy Policy or want to request deletion of support data you sent to us, contact:
+    * {
+      box-sizing: border-box;
+    }
 
-**3rnl.apps@gmail.com**
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+    }
 
-## Data stored on your device
+    main {
+      width: min(860px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
 
-The App stores the following data locally on your device:
+    header {
+      margin-bottom: 40px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
 
-- Collections you create
-- Prompts you add
-- Schedule settings
-- Reminder history needed for notification scheduling
-- Prompt reaction/priority information, such as Like, Neutral, or Dislike
-- App settings, including onboarding completion and Premium entitlement status
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+    }
 
-This data is stored locally on your device. We do not run a server that automatically receives your prompts, collections, schedules, or reactions.
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 12px;
+      font-size: 1.4rem;
+      line-height: 1.3;
+    }
 
-## Prompts and collections
+    p {
+      margin: 12px 0;
+    }
 
-Your prompt text and collection names are private user content.
+    ul {
+      margin: 12px 0;
+      padding-left: 24px;
+    }
 
-The App does not intentionally upload prompt text or collection names to our servers.
+    li {
+      margin: 8px 0;
+    }
 
-If you choose to send a support report, the report is designed not to include prompt text or collection names.
+    a {
+      color: var(--link);
+      text-underline-offset: 3px;
+    }
 
-## Notifications
+    .effective-date {
+      margin: 0;
+      color: var(--secondary-text);
+    }
 
-The App uses Android notification permissions to send scheduled reminders.
+    .contact-box {
+      margin: 20px 0;
+      padding: 18px 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
 
-Notifications are generated on your device based on your enabled collections, enabled prompts, and schedule settings.
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--secondary-text);
+      font-size: 0.95rem;
+    }
+  </style>
 
-The App may store local technical records about planned, delivered, skipped, or dismissed reminders so notification scheduling can work reliably.
+</head>
 
-## Support reports
+<body>
+  <main>
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="effective-date">
+        <strong>Effective date:</strong>
+        June 17, 2026
+      </p>
+    </header>
 
-The App includes a “Report a problem” feature. This feature is optional and user-initiated.
+```
+<p>
+  This Privacy Policy explains how <strong>Inner Reminder</strong>
+  (“the App”) handles information when you use it.
+</p>
 
-When you choose to send a support report, the App creates a local archive that may include technical diagnostic information such as:
+<p>
+  Inner Reminder is designed as a privacy-first reminders app. The App
+  helps you create collections of prompts and receive gentle reminders
+  on your device.
+</p>
 
-- App version
-- Android version
-- Device model
-- Timezone
-- Notification permission state
-- Battery optimization state
-- Notification channel state
-- Number of collections
-- Number of enabled schedules
-- Reminder occurrence IDs, times, statuses, and skip/failure reasons
-- A local support correlation ID
+<section>
+  <h2>Developer contact</h2>
 
-Support reports are created locally and are shared only when you choose to send them, for example by email.
+  <p>
+    If you have questions about this Privacy Policy or want to request
+    deletion of support data you sent to us, contact:
+  </p>
 
-Support reports are intended to help diagnose notification scheduling issues. They should not include prompt text or collection names.
+  <div class="contact-box">
+    <a href="mailto:3rnl.apps@gmail.com">
+      3rnl.apps@gmail.com
+    </a>
+  </div>
+</section>
 
-If you send us a support report by email, your email address and the report attachment will be processed for support purposes.
+<section>
+  <h2>Data stored on your device</h2>
 
-## Purchases and Premium
+  <p>The App stores the following data locally on your device:</p>
 
-The App offers a one-time Premium purchase through Google Play Billing.
+  <ul>
+    <li>Collections you create</li>
+    <li>Prompts you add</li>
+    <li>Schedule settings</li>
+    <li>Reminder history needed for notification scheduling</li>
+    <li>
+      Prompt reaction and priority information, such as Like, Neutral,
+      or Dislike
+    </li>
+    <li>
+      App settings, including onboarding completion and Premium
+      entitlement status
+    </li>
+  </ul>
 
-Purchase processing is handled by Google Play. We do not receive or store your full payment card details.
+  <p>
+    This data is stored locally on your device. We do not run a server
+    that automatically receives your prompts, collections, schedules,
+    or reactions.
+  </p>
+</section>
 
-The App may store a local Premium entitlement state on your device so Premium features remain unlocked.
+<section>
+  <h2>Prompts and collections</h2>
 
-Google Play may process purchase-related information according to Google’s own policies.
+  <p>
+    Your prompt text and collection names are private user content.
+  </p>
 
-## Data sharing
+  <p>
+    The App does not intentionally upload prompt text or collection
+    names to our servers.
+  </p>
 
-We do not sell your personal data.
+  <p>
+    If you choose to send a support report, the report is designed not
+    to include prompt text or collection names.
+  </p>
+</section>
 
-We do not share your prompt text, collections, schedules, or reactions with advertisers.
+<section>
+  <h2>Notifications</h2>
 
-Data may be shared only in the following cases:
+  <p>
+    The App uses Android notification permissions to send scheduled
+    reminders.
+  </p>
 
-- With Google Play, when you use Google Play Billing
-- With your email provider or chosen sharing app, if you manually send a support report
-- If required by law or valid legal process
+  <p>
+    Notifications are generated on your device based on your enabled
+    collections, enabled prompts, and schedule settings.
+  </p>
 
-## Permissions used by the App
+  <p>
+    The App may store local technical records about planned, delivered,
+    skipped, or dismissed reminders so notification scheduling can work
+    reliably.
+  </p>
+</section>
 
-The App may request or use the following Android permissions:
+<section>
+  <h2>Support reports</h2>
 
-- **Notifications:** to show reminder notifications
-- **Receive boot completed:** to restore scheduled reminders after device restart
-- **Battery optimization settings:** to help you configure Android so reminders can arrive more reliably
-- **Internet / network state:** used by Google Play Billing and related Google Play services
+  <p>
+    The App includes a “Report a problem” feature. This feature is
+    optional and user-initiated.
+  </p>
 
-## Data retention
+  <p>
+    When you choose to send a support report, the App creates a local
+    archive that may include technical diagnostic information such as:
+  </p>
 
-Data stored locally in the App remains on your device until you delete it, clear app data, or uninstall the App.
+  <ul>
+    <li>App version</li>
+    <li>Android version</li>
+    <li>Device model</li>
+    <li>Timezone</li>
+    <li>Notification permission state</li>
+    <li>Battery optimization state</li>
+    <li>Notification channel state</li>
+    <li>Number of collections</li>
+    <li>Number of enabled schedules</li>
+    <li>
+      Reminder occurrence IDs, times, statuses, and skip or failure
+      reasons
+    </li>
+    <li>A local support correlation ID</li>
+  </ul>
 
-Support reports sent by email may be retained as long as reasonably needed to investigate and respond to support requests. You can request deletion of support emails and attachments by contacting **3rnl.apps@gmail.com**.
+  <p>
+    Support reports are created locally and are shared only when you
+    choose to send them, for example by email.
+  </p>
 
-## Data deletion
+  <p>
+    Support reports are intended to help diagnose notification
+    scheduling issues. They should not include prompt text or collection
+    names.
+  </p>
 
-You can delete your local data by:
+  <p>
+    If you send us a support report by email, your email address and the
+    report attachment will be processed for support purposes.
+  </p>
+</section>
 
-- Deleting individual prompts or collections in the App
-- Clearing app data in Android settings
-- Uninstalling the App
+<section>
+  <h2>Purchases and Premium</h2>
 
-To request deletion of support data you previously emailed to us, contact:
+  <p>
+    The App offers a one-time Premium purchase through Google Play
+    Billing.
+  </p>
 
-**3rnl.apps@gmail.com**
+  <p>
+    Purchase processing is handled by Google Play. We do not receive or
+    store your full payment card details.
+  </p>
 
-## Security
+  <p>
+    The App may store a local Premium entitlement state on your device
+    so Premium features remain unlocked.
+  </p>
 
-The App is designed to keep your core content on your device.
+  <p>
+    Google Play may process purchase-related information according to
+    Google’s own policies.
+  </p>
+</section>
 
-Support reports are shared only when you initiate sharing. Please avoid writing sensitive personal information in support emails unless necessary.
+<section>
+  <h2>Data sharing</h2>
 
-## Children
+  <p>We do not sell your personal data.</p>
 
-Inner Reminder is not directed to children.
+  <p>
+    We do not share your prompt text, collections, schedules, or
+    reactions with advertisers.
+  </p>
 
-## Changes to this Privacy Policy
+  <p>Data may be shared only in the following cases:</p>
 
-We may update this Privacy Policy from time to time. If we make material changes, we will update the effective date and publish the updated policy.
+  <ul>
+    <li>With Google Play, when you use Google Play Billing</li>
+    <li>
+      With your email provider or chosen sharing app, if you manually
+      send a support report
+    </li>
+    <li>If required by law or valid legal process</li>
+  </ul>
+</section>
 
-## Contact
+<section>
+  <h2>Permissions used by the App</h2>
 
-For privacy questions or support data deletion requests, contact:
+  <p>The App may request or use the following Android permissions:</p>
 
-**3rnl.apps@gmail.com**
+  <ul>
+    <li>
+      <strong>Notifications:</strong>
+      to show reminder notifications
+    </li>
+    <li>
+      <strong>Receive boot completed:</strong>
+      to restore scheduled reminders after device restart
+    </li>
+    <li>
+      <strong>Battery optimization settings:</strong>
+      to help you configure Android so reminders can arrive more
+      reliably
+    </li>
+    <li>
+      <strong>Internet and network state:</strong>
+      used by Google Play Billing and related Google Play services
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Data retention</h2>
+
+  <p>
+    Data stored locally in the App remains on your device until you
+    delete it, clear app data, or uninstall the App.
+  </p>
+
+  <p>
+    Support reports sent by email may be retained as long as reasonably
+    needed to investigate and respond to support requests. You can
+    request deletion of support emails and attachments by contacting
+    <a href="mailto:3rnl.apps@gmail.com">3rnl.apps@gmail.com</a>.
+  </p>
+</section>
+
+<section>
+  <h2>Data deletion</h2>
+
+  <p>You can delete your local data by:</p>
+
+  <ul>
+    <li>Deleting individual prompts or collections in the App</li>
+    <li>Clearing app data in Android settings</li>
+    <li>Uninstalling the App</li>
+  </ul>
+
+  <p>
+    To request deletion of support data you previously emailed to us,
+    contact:
+  </p>
+
+  <div class="contact-box">
+    <a href="mailto:3rnl.apps@gmail.com">
+      3rnl.apps@gmail.com
+    </a>
+  </div>
+</section>
+
+<section>
+  <h2>Security</h2>
+
+  <p>
+    The App is designed to keep your core content on your device.
+  </p>
+
+  <p>
+    Support reports are shared only when you initiate sharing. Please
+    avoid writing sensitive personal information in support emails
+    unless necessary.
+  </p>
+</section>
+
+<section>
+  <h2>Children</h2>
+
+  <p>Inner Reminder is not directed to children.</p>
+</section>
+
+<section>
+  <h2>Changes to this Privacy Policy</h2>
+
+  <p>
+    We may update this Privacy Policy from time to time. If we make
+    material changes, we will update the effective date and publish the
+    updated policy.
+  </p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+
+  <p>
+    For privacy questions or support data deletion requests, contact:
+  </p>
+
+  <div class="contact-box">
+    <a href="mailto:3rnl.apps@gmail.com">
+      3rnl.apps@gmail.com
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Inner Reminder. All rights reserved.</p>
+</footer>
+```
+
+  </main>
+</body>
+</html>
